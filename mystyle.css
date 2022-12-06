@@ -1,0 +1,98 @@
+body{
+    background-image: url("https://desk-fd.zol-img.com.cn/t_s960x600c5/g5/M00/01/0E/ChMkJlbKwaiIePElAAaWVxGeuKUAALGbwEJDrcABpZv906.jpg");
+   background-size: auto;s
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .cbl{color: white;
+    width: 100px;
+    height:100px;
+    text-align: right;
+    font-family: fantasy;
+    font-size: large;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    
+    
+   }
+   
+   .yjy{text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: wheat;
+
+   }
+   .yjy2{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: white;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+   }
+  .footer{
+    background-color: black;
+    background-size: cover;
+    width: 1625px;
+    height: 200px;
+    margin: auto;
+   font-family: cursive;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    
+  }
+  .footer p{
+   
+    
+    font-size: medium;
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+  }
